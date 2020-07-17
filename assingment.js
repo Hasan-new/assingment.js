@@ -25,7 +25,23 @@ console.log(result);
 function brickCalculator(params) {
     
 }
+// brickCalculator
 
-function tinyFriend(params) {
-    
+
+
+function tinyFriend(name) {
+    let smallerName = name [0];
+    for (let i = 0; i < name.length; i++) {
+        let currentName = name[i];
+        if(currentName.length < smallerName.length) {
+            smallerName = currentName;
+        }
+    }
+    return smallerName;
 }
+
+let name =  ['abdullah', 'fahad', 'onu', 'Jawad', 'tabassum']
+
+console.log(tinyFriend(name));
+
+

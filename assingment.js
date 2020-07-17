@@ -18,12 +18,14 @@ function woodCalculatro(chair,  table, bed){
 }
 var result = woodCalculatro(1, 3, 5);
 console.log(result);
-
-
 // This is complete too.
 
 
 // brickCalculator
 function brickCalculator(params) {
+    
+}
+
+function tinyFriend(params) {
     
 }
